@@ -1,3 +1,5 @@
+package src;
+
 public class Best_Time_to_Buy {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) return 0;
