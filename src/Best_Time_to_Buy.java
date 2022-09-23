@@ -3,7 +3,7 @@ public class Best_Time_to_Buy {
         if (prices.length == 0) return 0;
 
 
-        int maxProfit = prices[0];
+        int maxProfit = -1;
         for (int i = 1; i < prices.length; i++) {
             for (int j = i+1; j < prices.length ; j++) {
                 if (maxProfit < prices[j] - prices[i]){
